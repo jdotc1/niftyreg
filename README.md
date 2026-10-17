@@ -1,3 +1,13 @@
+## About this fork
+
+This is a development fork of [KCL-BMEIS/niftyreg](https://github.com/KCL-BMEIS/niftyreg). NiftyReg provides command-line tools for rigid, affine, and nonlinear registration of 2D and 3D NIfTI or Analyze images, alongside resampling utilities. It is useful for aligning images before comparing anatomy, combining modalities, or transferring image-derived measurements.
+
+Fork work is tracked in [upstream PR #155](https://github.com/KCL-BMEIS/niftyreg/pull/155), proposing SSE selection changes for explicitly configured macOS ARM64 targets. It was open on 17 October 2026 and remains a focused build proposal on its linked feature branch.
+
+Start with the [upstream repository](https://github.com/KCL-BMEIS/niftyreg) for source, CMake build configuration, and project guidance. [Compare the default branch with upstream](https://github.com/jdotc1/niftyreg/compare/KCL-BMEIS:master...jdotc1:master) when selecting a revision. The original algorithm descriptions and citation requirements are preserved below.
+
+---
+
 <img src="https://github.com/KCL-BMEIS/niftyreg/blob/master/logo/nifty_reg_logo.png?raw=true" alt="NiftyReg logo" title="NiftyReg" height="80">
 
 # NiftyReg
